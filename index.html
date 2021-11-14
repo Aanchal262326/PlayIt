@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: lightblue;}
+  100% {background-color: lightgreen;}
+ 
+}
+    </style>
+    
+</head>
+<body>
+    
+    <p style="color: black; text-align:
+     center; 
+     font-size: 50px;
+     width: 500px;
+    height: fit-content;
+    
+  position: relative;
+  left: 30%;
+ background-color:hotpink;
+  animation-name: example;
+  animation-duration:50s;
+    ">Play it!</p>
+  <p id="p2" style="text-align: center; font-size: 30px; color: yellow;">Change font weight by clicking the radio buttons</p>
+    <form style="max-width: 900px;
+    margin: 50px auto;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: dotted;
+    border-width: 3px;
+    border-color: #524a40;
+    text-align: left;
+    padding: 30px;
+    font-size: 20px; ;
+    justify-items: auto;
+    ">
+      
+    <input type="radio" name="selection"  onclick="document.getElementById('p2').style.fontWeight='normal'" >
+<label style="font-size: 22px;color:chartreuse;"> Normal</label>
+<br >
+<input type="radio" name="selection"  onclick="document.getElementById('p2').style.fontWeight='normal'">
+<label style="font-size: 22px;color:chartreuse;"> bold</label>
+<br>
+<input type="radio" name="selection"   onclick="document.getElementById('p2').style.fontWeight='bolder'">
+<label style="font-size: 22px;color:chartreuse;"> bolder</label>
+<br>
+<input type="radio" name="selection"  onclick="document.getElementById('p2').style.fontWeight='lighter'">
+<label style="font-size: 22px;color:chartreuse;"> lighter</label>
+<br>
+<input type="radio" name="selection" onclick="document.getElementById('p2').style.fontWeight='100'">
+<label style="font-size: 22px;color:chartreuse;"> 100</label>
+<br>
+<input type="radio" name="selection"  onclick="document.getElementById('p2').style.fontWeight='200'">
+<label style="font-size: 22px;color:chartreuse;"> 200</label>
+<br>
+<input type="radio" name="selection"  onclick="document.getElementById('p2').style.fontWeight='300'">
+<label style="font-size: 22px;color:chartreuse;"> 300</label>
+<br>
+<input type="radio" name="selection" onclick="document.getElementById('p2').style.fontWeight='400'">
+<label style="font-size: 22px;color:chartreuse;"> 400</label> <br>
+<input type="radio" name="selection"  onclick="document.getElementById('p2').style.fontWeight='500'">
+<label style="font-size: 22px;color:chartreuse;"> 500</label>
+<br>
+<input type="radio" name="selection"  onclick="document.getElementById('p2').style.fontWeight='600'">
+<label style="font-size: 22px;color:chartreuse;"> 600</label>
+<br>
+<input type="radio" name="selection"  onclick="document.getElementById('p2').style.fontWeight='700'">
+<label style="font-size: 22px;color:chartreuse;"> 700</label>
+<br>
+<input type="radio" name="selection"  onclick="document.getElementById('p2').style.fontWeight='800'">
+<label style="font-size: 22px;color:chartreuse;"> 800</label>
+<br>
+<input type="radio" name="selection"  onclick="document.getElementById('p2').style.fontWeight='900'">
+<label style="font-size: 22px;color:chartreuse;"> 900</label>
+<br>
+<input type="radio" name="selection"  onclick="document.getElementById('p2').style.fontWeight='initial'">
+<label style="font-size: 22px;color:chartreuse;"> Initial-state</label>
+<br>
+</form>
+
+</body>
+</html>
